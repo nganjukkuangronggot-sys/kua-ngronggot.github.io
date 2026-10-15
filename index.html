@@ -17,7 +17,7 @@
   <header class="header">
     <div class="container nav-wrap">
       <a class="brand" href="#beranda" aria-label="KUA Ngronggot Beranda">
-        <img class="kemenag-logo" src="./logo-kemenag.png?v=2" alt="Lambang Kementerian Agama Republik Indonesia" loading="eager">
+        <img class="kemenag-logo" src="assets/logo-kemenag.png" alt="Lambang Kementerian Agama Republik Indonesia" loading="eager">
         <div><strong>KANTOR URUSAN AGAMA</strong><span>NGRONGGOT · KABUPATEN NGANJUK</span></div>
       </a>
       <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
@@ -30,6 +30,7 @@
         <a href="#informasi">Berita</a>
         <a href="#unduhan">Unduhan</a>
         <a href="#kontak">Kontak</a>
+        <a href="keluhan.html">Keluhan</a>
       </nav>
     </div>
   </header>
@@ -173,7 +174,7 @@
           <div class="section-label">PERSIAPAN LAYANAN</div>
           <h2>Siapkan kebutuhan Anda <em>sebelum datang.</em></h2>
           <p class="muted">Persyaratan dapat berbeda sesuai kondisi pemohon dan ketentuan terbaru. Silakan konfirmasi kepada petugas KUA sebelum melengkapi dokumen.</p>
-          <a class="btn btn-green" href="https://wa.me/6285649198671" target="_blank" rel="noopener">Tanya melalui WhatsApp <span>↗</span></a>
+          <a class="btn btn-green" href="#kontak">Hubungi KUA Ngronggot <span>↗</span></a>
         </div>
         <div class="check-panel">
           <div class="check-panel-head"><span>INFORMASI PRA-LAYANAN</span><span class="check-badge">KUA NGRONGGOT</span></div>
@@ -239,14 +240,25 @@
       </div>
     </section>
 
+    <section class="complaint-callout" aria-labelledby="complaint-title">
+      <div class="container complaint-callout-inner">
+        <div class="complaint-callout-icon" aria-hidden="true">✉</div>
+        <div class="complaint-callout-copy">
+          <div class="section-label">ASPIRASI MASYARAKAT</div>
+          <h2 id="complaint-title">Ada masukan atau keluhan?</h2>
+          <p>KUA Ngronggot menyediakan halaman khusus untuk informasi pengaduan. Setiap keluhan akan ditelaah terlebih dahulu dan tidak otomatis ditampilkan kepada publik.</p>
+        </div>
+        <a class="btn btn-green" href="keluhan.html">Buka Halaman Keluhan <span>↗</span></a>
+      </div>
+    </section>
+
     <section class="contact-band" id="kontak">
       <div class="container contact-grid">
         <div><div class="section-label light-label">KONTAK & LOKASI</div><h2>Ada yang ingin<br><em>Anda tanyakan?</em></h2><p>Silakan hubungi KUA Ngronggot untuk memperoleh informasi layanan yang sesuai.</p></div>
         <div class="contact-details">
           <div class="contact-item"><span>⌖</span><div><small>ALAMAT</small><p>Jl. Masjid Besar Al Hasan, Dsn. Ngronggot, Desa Ngronggot, Kec. Ngronggot, Kab. Nganjuk</p></div></div>
           <div class="contact-item"><span>☎</span><div><small>TELEPON KANTOR</small><p>(0358) 771994</p></div></div>
-          <div class="contact-item"><span>◉</span><div><small>WHATSAPP</small><p>0856-4919-8671</p></div></div>
-          <div class="contact-actions"><a class="btn btn-gold" href="https://maps.app.goo.gl/mqeo8FTTAqVQHLGk9" target="_blank" rel="noopener">Buka Google Maps ↗</a><a class="btn btn-light-outline" href="https://wa.me/6285649198671" target="_blank" rel="noopener">WhatsApp KUA</a></div>
+          <div class="contact-actions"><a class="btn btn-gold" href="https://maps.app.goo.gl/mqeo8FTTAqVQHLGk9" target="_blank" rel="noopener">Buka Google Maps ↗</a><a class="btn btn-light-outline" href="keluhan.html">Sampaikan Keluhan</a></div>
         </div>
       </div>
     </section>

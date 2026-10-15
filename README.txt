@@ -1,7 +1,8 @@
 WEBSITE KUA NGRONGGOT — PAKET DRAF LENGKAP
 
 File:
-- index.html                  Halaman website
+- index.html                  Halaman beranda website
+- keluhan.html                Halaman informasi keluhan dan masukan
 - style.css                   Desain responsif hijau, putih, dan aksen emas
 - script.js                   Navigasi seluler dan tahun otomatis
 - directory.js                Pencarian/filter direktori masjid dan musala
@@ -9,10 +10,10 @@ File:
 - README.txt                  Panduan ini
 
 PENTING:
-1. Ini masih draf; website belum dipublikasikan dan belum menjadi situs resmi.
+1. Website telah menggunakan GitHub Pages; periksa kembali seluruh isi sebelum memperbarui publikasi.
 2. Direktori masjid/musala sengaja dikosongkan. Masukkan data yang bersumber dari spreadsheet resmi dan sudah diverifikasi.
 3. Kartu berita dan dokumen adalah contoh tata letak. Ganti dengan berita dan dokumen yang benar-benar disahkan sebelum publikasi.
-4. Verifikasi kembali nomor telepon, WhatsApp, alamat, logo resmi, dan tautan media sosial sebelum website dipublikasikan.
+4. Nomor WhatsApp sengaja tidak ditampilkan karena sementara belum tersedia. Verifikasi nomor telepon, alamat, logo, dan tautan media sosial sebelum publikasi.
 5. Jangan mengunggah data pribadi yang tidak diperlukan atau dokumen internal yang tidak untuk konsumsi publik.
 
 MEMBUAT AKUN GITHUB:
@@ -29,3 +30,19 @@ MEMBUAT AKUN GITHUB:
 11. Tunggu beberapa menit. Alamat yang direncanakan: https://kua-ngronggot.github.io
 
 Catatan: GitHub dapat meminta verifikasi email. Jangan bagikan kata sandi atau kode verifikasi kepada siapa pun.
+
+
+PEMBARUAN PROFIL PEGAWAI:
+- Bagian Profil Pegawai ditambahkan di index.html dan style.css.
+- Daftar nama/jabatan merupakan draf awal dan perlu diverifikasi sebelum dipublikasikan sebagai data resmi.
+
+
+PEMBARUAN DATA PEGAWAI LENGKAP (15 ORANG):
+Profil pegawai diperbarui mengikuti daftar pada tangkapan layar pengguna, termasuk Isa Mustofa sebagai Kepala KUA. Verifikasi akhir nomenklatur jabatan tetap disarankan.
+
+
+HALAMAN KELUHAN — CATATAN KEAMANAN:
+- keluhan.html saat ini merupakan halaman informasi; belum ada formulir pengiriman atau penyimpanan keluhan.
+- GitHub Pages bersifat statis dan tidak dapat menjadi penyimpanan keluhan privat yang aman. Sebelum mengaktifkan formulir, siapkan layanan backend/form terpisah dengan autentikasi admin, kontrol akses, kebijakan privasi, dan perlindungan data pelapor.
+- Keluhan tidak boleh diterbitkan otomatis. Hanya admin berwenang yang boleh menyetujui dan menerbitkan ringkasan setelah pemeriksaan. Hilangkan identitas pelapor dan data pribadi sebelum publikasi.
+- Jangan menyimpan data pengaduan, kata sandi, token, NIK, atau dokumen pribadi dalam repository publik.

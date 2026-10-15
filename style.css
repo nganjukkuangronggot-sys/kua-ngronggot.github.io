@@ -27,3 +27,12 @@
 .staff-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:850px){.staff-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.staff-grid{grid-template-columns:1fr}}
+
+/* Akses halaman keluhan pada beranda */
+.complaint-callout{background:#f4f5ef;padding:42px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.complaint-callout-inner{display:flex;align-items:center;gap:22px}
+.complaint-callout-icon{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;border-radius:50%;background:var(--mint);color:var(--green);font-size:25px;border:1px solid #dce6dc}
+.complaint-callout-copy{flex:1}
+.complaint-callout h2{font-size:clamp(23px,3vw,32px);margin:6px 0;color:var(--ink)}
+.complaint-callout p{font-size:12px;color:var(--muted);margin:0;max-width:650px}
+@media(max-width:640px){.complaint-callout-inner{align-items:flex-start;flex-wrap:wrap;gap:14px}.complaint-callout-copy{flex-basis:calc(100% - 70px)}.complaint-callout-inner>.btn{width:100%}}

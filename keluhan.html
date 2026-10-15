@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informasi penyampaian keluhan dan masukan untuk KUA Ngronggot.">
+  <title>Keluhan dan Masukan | KUA Ngronggot</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .complaint-hero{background:linear-gradient(112deg,#10472f,#1c6846);color:#fff;padding:64px 0 58px}
+    .complaint-hero h1{font-size:clamp(38px,5vw,58px);margin:15px 0}
+    .complaint-hero p{max-width:700px;color:#d8e5dc;font-size:14px;line-height:1.85}
+    .crumb{font-size:11px;color:#c9d8ce;margin-bottom:20px}.crumb a{color:#f1d99c}
+    .complaint-content{background:#f8f8f3;min-height:420px;padding:58px 0}
+    .complaint-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;align-items:start}
+    .complaint-panel{background:#fff;border:1px solid var(--line);padding:28px}
+    .complaint-panel h2{font-size:25px;margin:0 0 12px;color:var(--green)}
+    .complaint-panel p,.complaint-panel li{font-size:13px;color:var(--muted)}
+    .complaint-panel ul{padding-left:20px;margin-bottom:0}
+    .status-note{display:flex;gap:13px;background:#f6efd9;border:1px solid #eadcb3;padding:17px;margin-top:20px;color:#684f1c}
+    .status-note strong{display:block;font-size:12px}.status-note p{margin:4px 0 0;color:#735e32;font-size:12px}
+    .steps{display:grid;gap:13px;margin-top:18px}.step{display:flex;gap:12px}.step-num{width:28px;height:28px;flex:0 0 28px;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:var(--green);font-size:12px;font-weight:700}.step p{margin:2px 0 0}
+    .contact-mini{padding:18px;background:var(--mint);margin-top:18px}.contact-mini b{display:block;color:var(--green);font-size:12px}.contact-mini p{margin:5px 0 0;font-size:12px}
+    .page-footer{padding:20px 0;background:#092f1e;color:#b6c9bc;font-size:11px}.page-footer .container{display:flex;justify-content:space-between;gap:16px;align-items:center}
+    @media(max-width:640px){.complaint-hero{padding:44px 0}.complaint-content{padding:35px 0}.complaint-grid{grid-template-columns:1fr}.complaint-panel{padding:22px}.page-footer .container{align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>Kementerian Agama Republik Indonesia</span><span>Pelayanan Ramah • Profesional • Berintegritas</span></div></div>
+  <header class="header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html#beranda" aria-label="KUA Ngronggot Beranda"><img class="kemenag-logo" src="assets/logo-kemenag.png" alt="Lambang Kementerian Agama Republik Indonesia"><div><strong>KANTOR URUSAN AGAMA</strong><span>NGRONGGOT · KABUPATEN NGANJUK</span></div></a>
+      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" onclick="const n=document.getElementById('nav');const o=n.classList.toggle('open');this.setAttribute('aria-expanded',String(o));this.textContent=o?'×':'☰'">☰</button>
+      <nav class="nav" id="nav"><a href="index.html#beranda">Beranda</a><a href="index.html#profil">Profil</a><a href="index.html#pegawai">Pegawai</a><a href="index.html#layanan">Layanan</a><a href="index.html#direktori">Masjid & Musala</a><a href="index.html#informasi">Berita</a><a href="index.html#unduhan">Unduhan</a><a href="index.html#kontak">Kontak</a><a href="keluhan.html" aria-current="page">Keluhan</a></nav>
+    </div>
+  </header>
+  <main>
+    <section class="complaint-hero"><div class="container"><div class="crumb"><a href="index.html">Beranda</a> / Keluhan dan Masukan</div><div class="section-label light-label">RUANG ASPIRASI MASYARAKAT</div><h1>Keluhan dan <em>Masukan</em></h1><p>Halaman ini disediakan sebagai informasi awal bagi masyarakat yang ingin menyampaikan keluhan, saran, atau masukan terkait pelayanan KUA Ngronggot. Setiap laporan perlu ditangani secara cermat, adil, dan menjaga kerahasiaan pelapor.</p></div></section>
+    <section class="complaint-content"><div class="container complaint-grid">
+      <article class="complaint-panel"><h2>Bagaimana keluhan ditangani?</h2><p>Keluhan yang diterima tidak langsung dipublikasikan. Petugas berwenang akan menelaah isi laporan, memeriksa informasi pendukung bila diperlukan, serta memastikan tidak ada data pribadi atau informasi yang seharusnya dirahasiakan sebelum menentukan tindak lanjut.</p>
+        <div class="steps"><div class="step"><span class="step-num">1</span><p><strong>Penerimaan dan pencatatan</strong><br>Keluhan diterima melalui kanal resmi yang tersedia dan dicatat untuk tindak lanjut.</p></div><div class="step"><span class="step-num">2</span><p><strong>Verifikasi dan penelaahan</strong><br>Petugas berwenang memeriksa substansi, konteks, dan informasi pribadi yang mungkin tercantum.</p></div><div class="step"><span class="step-num">3</span><p><strong>Tindak lanjut</strong><br>Laporan diteruskan kepada pihak yang berwenang sesuai ruang lingkup dan ketentuan yang berlaku.</p></div><div class="step"><span class="step-num">4</span><p><strong>Publikasi bila disetujui</strong><br>Hanya ringkasan yang telah diperiksa dan disetujui admin yang dapat ditampilkan untuk publik. Identitas pelapor tidak ditampilkan.</p></div></div>
+      </article>
+      <aside class="complaint-panel"><h2>Informasi penyampaian</h2><p>Formulir pengaduan daring belum diaktifkan. Website ini menggunakan GitHub Pages yang bersifat statis, sehingga belum dapat menerima dan menyimpan laporan secara aman tanpa layanan backend terpisah.</p>
+        <div class="status-note"><span aria-hidden="true">ⓘ</span><div><strong>Kanal daring sedang disiapkan</strong><p>Jangan mengirim NIK, nomor KK, dokumen pribadi, atau informasi sensitif melalui kolom publik atau komentar terbuka.</p></div></div>
+        <div class="contact-mini"><b>Untuk informasi awal</b><p>Telepon kantor: <strong>(0358) 771994</strong></p><p>Alamat: Jl. Masjid Besar Al Hasan, Dsn. Ngronggot, Desa Ngronggot, Kec. Ngronggot, Kab. Nganjuk.</p></div>
+        <p>Apabila keluhan menyangkut data pribadi atau persoalan sensitif, sampaikan hanya melalui kanal resmi yang dapat menjaga kerahasiaan dan meminta petugas berwenang menanganinya.</p>
+      </aside>
+    </div></section>
+  </main>
+  <footer class="page-footer"><div class="container"><span>© <span id="year"></span> KUA Ngronggot</span><a href="index.html">← Kembali ke Beranda</a></div></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
