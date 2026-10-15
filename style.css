@@ -36,3 +36,156 @@
 .complaint-callout h2{font-size:clamp(23px,3vw,32px);margin:6px 0;color:var(--ink)}
 .complaint-callout p{font-size:12px;color:var(--muted);margin:0;max-width:650px}
 @media(max-width:640px){.complaint-callout-inner{align-items:flex-start;flex-wrap:wrap;gap:14px}.complaint-callout-copy{flex-basis:calc(100% - 70px)}.complaint-callout-inner>.btn{width:100%}}
+
+
+/* Profil KUA Ngronggot */
+.profile-subsection {
+  margin-top: 55px;
+  padding-top: 38px;
+  border-top: 1px solid var(--line);
+}
+
+.profile-subsection > p {
+  max-width: 850px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.profile-function-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.profile-function-card,
+.profile-job-card,
+.profile-contact-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 22px;
+}
+
+.profile-function-card > span {
+  color: #a17a2b;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.profile-function-card h3,
+.profile-job-card h3,
+.profile-contact-card h3 {
+  font-size: 14px;
+  margin: 10px 0 7px;
+}
+
+.profile-function-card p,
+.profile-job-card p,
+.profile-contact-card p {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 0;
+}
+
+.profile-job-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.profile-job-card {
+  border-top: 3px solid var(--gold);
+}
+
+.profile-subsection .values-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 25px;
+}
+
+.profile-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 25px;
+}
+
+.profile-map-link {
+  margin-top: 15px;
+}
+
+.profile-social-section {
+  margin-top: 35px;
+}
+
+.profile-social-section > p {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.profile-social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 20px;
+}
+
+.profile-social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 20px;
+  background: #fff;
+  border: 1px solid var(--line);
+  transition: transform .2s, border-color .2s;
+}
+
+.profile-social-link:hover {
+  transform: translateY(-3px);
+  border-color: var(--gold);
+}
+
+.profile-social-link span {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.profile-social-link strong {
+  font-size: 12px;
+  color: var(--green);
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 850px) {
+  .profile-function-grid,
+  .profile-subsection .values-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .profile-job-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .profile-subsection {
+    margin-top: 40px;
+    padding-top: 28px;
+  }
+
+  .profile-function-grid,
+  .profile-job-grid,
+  .profile-contact-grid,
+  .profile-social-grid,
+  .profile-subsection .values-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-function-card,
+  .profile-job-card,
+  .profile-contact-card,
+  .profile-social-link {
+    padding: 20px;
+  }
+}
+
